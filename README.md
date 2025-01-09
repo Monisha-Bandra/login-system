@@ -45,4 +45,4 @@ You can check the app on localhost
 ### Demo App :
 [Demo App](https://login-system-2vfl.onrender.com)
 
-![Alt text](imgage.png?raw=true "Login Page")
+![screenshot](image.png)
