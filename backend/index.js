@@ -10,6 +10,9 @@ import authRoutes from "./routes/auth.route.js";
 
 dotenv.config();
 
+import sgMail from '@sendgrid/mail';  // Correct ES Module import for SendGrid
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);  // Correct usage of the API key
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
