@@ -7,7 +7,7 @@ import {
 
 
 // Set the SendGrid API Key - export this later (should not be hard-coded)
-sgMail.setApiKey('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')
+sgMail.setApiKey('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')
 
 const sender = {
 	email: "harsha@happyharsha.com",  // borrowed domain for email SMTP
